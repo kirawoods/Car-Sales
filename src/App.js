@@ -37,10 +37,12 @@ const App = () => {
         <Header />
         <AddedFeatures />
       </div>
-      {/* <div className="box">
-        <AdditionalFeatures additionalFeatures={state.additionalFeatures} />
-        <Total car={state.car} additionalPrice={state.additionalPrice} />
-      </div> */}
+      {
+        <div className="box">
+          <AdditionalFeatures />
+          {/* <Total /> */}
+        </div>
+      }
     </div>
   );
 };
