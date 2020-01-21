@@ -4,7 +4,6 @@ import { addFeature } from "../actions";
 const AdditionalFeature = props => {
   return (
     <li>
-      {/* Add an onClick that will let you add a feature to your car */}
       <button
         onClick={() => props.addFeature(props.feature)}
         className="button"
