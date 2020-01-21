@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import { removeFeature } from "../actions/index";
 
 const AddedFeature = props => {
   return (
@@ -12,7 +11,7 @@ const AddedFeature = props => {
       >
         X
       </button>
-      {props.name}
+      {props.feature.name}
     </li>
   );
 };
