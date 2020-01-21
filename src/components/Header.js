@@ -12,4 +12,4 @@ const Header = props => {
   );
 };
 
-export default Header;
+export default connect(null, {})(Header);
